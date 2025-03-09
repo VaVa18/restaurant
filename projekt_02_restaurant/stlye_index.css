@@ -1,0 +1,44 @@
+#hero {
+  background-image: url(/img/cake.avif);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+#hero-content {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+
+#hero-content a {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #224484;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+#cities {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#cities h2 {
+    border-bottom: solid rgb(197, 190, 190) 1px;
+}
+
+#cities img {
+    width: 1140px;
+    height: 250px;
+}
+
+.restaurant-tab {
+    margin: 20px;
+}

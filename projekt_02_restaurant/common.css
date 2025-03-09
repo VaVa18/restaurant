@@ -1,0 +1,68 @@
+/* Average */
+body{
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header part */
+
+header {
+    width: 100%;
+    padding: 0px 30px;
+    height: 110px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+header img {
+    width: 180px;
+    height: 85px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li a{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: "Archivo Black", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+#order-online a {
+    color: white;
+    background: #224484;
+    border-radius: 8px;
+    padding: 6px;
+    text-decoration: none;
+}
